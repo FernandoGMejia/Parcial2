@@ -17,8 +17,8 @@ void loop() {
      }
 
    }
-   
-   if (Accountant == 0)  
+
+   if (Accountant == 0)
    {
     digitalWrite(led,LOW);
    }
@@ -36,10 +36,10 @@ void loop() {
      {
       Serial.println(Accountant)
      }
-      else 
+      else if(option == 'N')
      {
-     Accountant = 0;
-    }
+       Accountant = 0;
+     }
     }
    }
 
